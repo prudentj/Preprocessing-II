@@ -1,1 +1,48 @@
 // Navigation Styles here
+.top-bar{
+    display:flex;
+    justify-content: center;
+    .std_brd;
+    padding: 3% 0% 2% 0%;
+  
+
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-content: stretch;
+        font-family:@default_fam;
+        font-size:2rem;
+        max-width: 800px;
+        width:100%;       
+        @media @mobile{
+           flex-flow:column nowrap;
+        }
+    
+        
+        .logo{
+            font-size:4rem;
+            color:@font-color;
+            font-family: @header_fam;
+            @media @mobile{
+                width:100%;
+                text-align: center;
+            }
+
+            
+        }
+        div{
+            display:flex nowrap;
+            width:50%;
+            justify-content: space-between;
+            a{
+                margin:0% 4% 0% 4%;
+            }
+            @media @mobile{
+                width:100%;
+                text-align: center;
+            }
+            
+        }
+    }
+
+}
