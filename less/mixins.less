@@ -1,1 +1,22 @@
 // Mixins in here
+.button_mix(){
+    display:block;
+    margin:0% 1% 1% 2%;
+    max-width: 100%;
+    width:80%;
+    height:4rem;
+    background-color: @eastern-blue;
+    color:@white;
+    font-size: 1.75rem;
+    padding:5%;
+    border-radius:15px;
+    text-align: center;
+    cursor:pointer;
+    &:hover{
+        color:@eastern-blue;
+        background:@white;
+    }
+}
+.std_brd(){
+    border-bottom: 2px dashed @navigation-border;
+}
